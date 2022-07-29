@@ -1,0 +1,40 @@
+.images {
+    filter: brightness(50%)
+}
+
+.carousel-caption {
+    position: absolute;
+    width: 671px;
+    height: 400px;
+    left: 350px;
+    top: 240px;
+}
+
+.col-md-8 {
+
+    align-items: center;
+}
+
+.w-50 {
+
+    margin-left: 400px;
+
+
+}
+
+
+
+@media screen (max-width: 688; ) and(min-width: 1312; ) {
+
+
+
+    .images {
+        width: 100%;
+    }
+
+    .carousel-caption {
+
+        width: 100%;
+    }
+
+}
